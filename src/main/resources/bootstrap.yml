@@ -1,8 +1,7 @@
 spring:
   application:
     name: kubbi-eureka-server
-  cloud:
-    config:
-      uri: https://github.com/freeChildren/kubbi-config-repertory.git
-      profile: default
-      label: master
+  #cloud:
+    #config:
+      #uri: https://github.com/freeChildren/kubbi-config-repertory.git
+      #search-paths: /config-repo

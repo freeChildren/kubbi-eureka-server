@@ -1,9 +1,15 @@
 server:
   port: 8761
 
+security:
+  basic:
+    enabled: true
+  user:
+    name: freeChildren
+    password: 123456
 eureka:
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    register-with-eureka: false
+    fetch-registry: false
   server:
     waitTimeInMsWhenSyncEmpty: 0
